@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://your-frontend-domain.netlify.app', // will update this after frontend deploy
+  origin: 'https://user-auth-crgt93yx9-sujit-barals-projects.vercel.app/', 
   credentials: true
 }));
 
